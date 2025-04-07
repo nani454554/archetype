@@ -3,7 +3,7 @@ def call() {
         checkout([
           $class: 'GitSCM',
           branches: [[name: '*/main']],
-          userRemoteConfigs: [[url: 'https://github.com/your-org/your-java-app.git']]
+          userRemoteConfigs: [[url: 'https://github.com/nani454554/maven.git']]
         ])
     }
 
